@@ -2,15 +2,6 @@ body{
 	padding-right: 25px;
 }
 
-#cabecalho{
-clear:left;
-	background-color:#6175f0;
-	padding-left:34px;
-	padding-top:20px;
-	padding-bottom:13px;
-	color: white;
-}
-
 h1{
 	font-size: 36px;
 }
@@ -25,9 +16,26 @@ h3{
 	font-family: "Times New Roman";
 }
 
-#verdade{
-	font-family: "Arial";
+p{
 	font-size: 14px;
+	font-family: "Arial";
+}
+
+#cabecalho{
+	background-color:#6175f0;
+	padding-left:34px;
+	padding-top:20px;
+	padding-bottom:13px;
+	color: white;
+}
+
+#cabecalho h1{
+	margin:0px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#cabecalho h2{
+	margin:0px;
 }
 
 #verdade img{
@@ -35,7 +43,12 @@ h3{
 	width: 310px;
 }
 
+.referencia{
+    font-style:italic;
+}
+
 #hoje{
+box-sizing:border-box;
 	background-color:#f8cef7;
 	padding-top: 20px;
 	padding-left: 35px;
@@ -45,6 +58,7 @@ h3{
 	width: 405px;
 	float: right;
 	text-align: center;
+	margin-left: 25px;
 }
 
 #hoje img{
@@ -56,9 +70,13 @@ h3{
 	padding-left: 12px;
 }
 
+#musica p:nth-of-type(even){
+	padding-left: 34px;
+}
+
 .destacado{
 	background-color:#c4caf3;
-	color: #004a79; 
+	color: #004a79; 	
 }
 
  
